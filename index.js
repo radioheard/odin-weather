@@ -30,7 +30,7 @@ function weatherVisuals (obj) {
     result.textContent = '';
     if (obj.cond === 'Partly cloudy' || obj.cond ==='Cloudy' || obj.cond ==='Overcast' || obj.cond ==='Rainy') {
         body.classList.remove('sunny');
-        body.classList.add('cloudy')
+        body.classList.add('cloudy');
     } else if ( obj.cond === 'Sunny' || obj.cond === 'Clear') {
         body.classList.remove('cloudy');
         body.classList.add('sunny')
